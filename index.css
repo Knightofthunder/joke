@@ -1,0 +1,74 @@
+.hero{
+    margin: 0px;
+    padding: 0px;
+    color:brown;
+}
+
+.hero-navigation{
+    color: rgba(28, 26, 26, 0.534);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 120%;
+
+}
+
+.hero-navigation-right{
+   padding-right: 20px; 
+}
+
+
+
+.hero-title-bold-main{
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 150%;
+    padding-top: 10%;
+}
+
+.hero-title-normal-author{
+    color:  rgba(28, 26, 26, 0.534);
+    font-size: 80%;
+    padding-right: 20%;
+    text-align: right;
+}
+
+.hero-mid-jokebox{
+    text-align: center;
+}
+
+.hero-mid-jokebox-genrator{
+    text-align: center;
+}
+#hero-mid-jokebox-genrator-button{
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.hero-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    padding-top: 5%;
+    color: rgba(28, 26, 26, 0.534);
+
+}
+.hero-end-colomun-first{
+    font-size: 1.3rem;
+}
+.hero-end-colomun-second{
+    font-size: 1.27rem;
+    position: relative;
+    top: 15px;
+}
+#hero-end-colomun-third{
+    font-size: 1.1rem;
+    position: relative;
+    top: 50px; /* Adjust the value as needed */
+}
+#hero-mid-jokebox-main-para{
+    font-size: 1.3rem;
+}

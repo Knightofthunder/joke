@@ -24,3 +24,14 @@ function displayJoke(waiting){
     let display2= document.getElementById("hero-mid-jokebox-main-para2");
     display2.innerHTML = `<bold>${waiting.punchline} </bold>`;
 }
+
+const subButton = document.getElementById("hero-mid-jokebox-genrator-button-subs-button");
+subButton.addEventListener("click", async subs=> {
+    subs.preventDefault();
+    subButton.style.color="pink";
+    const newbutton = document.createElement("a");
+    newbutton.setAttribute("href", "email.html");
+    document.body.appendChild(newbutton);
+    newbutton.click();
+    document.removeChild(newbutton);
+});

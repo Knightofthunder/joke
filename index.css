@@ -74,8 +74,38 @@
 #hero-end-colomun-third{
     font-size: 1.1rem;
     position: relative;
-    top: 50px; /* Adjust the value as needed */
+    top: 50px;
 }
 #hero-mid-jokebox-main-para{
     font-size: 1.3rem;
+}
+
+
+.email-form-box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: solid rgb(107, 104, 104) 2px;
+  border-radius: 30px;
+  padding: 80px;
+  filter: none;
+  background: linear-gradient(to right, #f8fafc 0%, #f1f5f9 50%, #ffffff 100%);
+  color:rgb(13, 13, 14);
+  
+}
+#email-from-submit-button{
+  margin-left: 25%;
+  padding: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 50px;
+}
+.email-form-div{
+    background-image: url("background2.png");
+    min-height: 300px;          /* Ensures the div is tall enough */
+    background-size: cover;     /* Makes the image cover the div */
+    background-repeat: no-repeat;
+    position: relative;
+    filter: blur(5px);
 }

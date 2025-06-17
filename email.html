@@ -13,6 +13,16 @@
       border: 2px solid black;
     }
   </style>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "bXmLQeJjoseVwIoe8",
+      });
+   })();
+  </script>
 </head>
 <body>
     <div  class="email-form-div">  </div>
@@ -21,5 +31,6 @@
         EMAIL: <input type="email" id="email-form-email-button" placeholder="ENTER YOUR EMAIL"><br><br><br><br>
         <input type="submit" id="email-from-submit-button">
     </form>
+<script src="email.js"></script>
 </body>
 </html>

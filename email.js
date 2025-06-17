@@ -10,3 +10,11 @@ emailjs.send("service_x5h9dah","template_f7s664q", para).then(alert("thanks for 
 
 const emailForm = document.querySelector(".email-form-box");
 emailForm.addEventListener("submit", sendMail);
+const redirect = document.getElementById("email-from-submit-button");
+redirect.addEventListener("click", ()=> {
+ const back = document.createElement("a");
+ back.setAttribute("href","index.html");
+ document.body.append(back);
+ back.click();
+ document.body.remove(back);
+});

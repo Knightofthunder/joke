@@ -12,6 +12,7 @@ const emailForm = document.querySelector(".email-form-box");
 emailForm.addEventListener("submit", sendMail);
 const redirect = document.getElementById("email-from-submit-button");
 redirect.addEventListener("click", ()=> {
+ preventDefault();
  const back = document.createElement("a");
  back.setAttribute("href","index.html");
  document.body.append(back);
